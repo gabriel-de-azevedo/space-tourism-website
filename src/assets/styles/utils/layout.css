@@ -15,7 +15,7 @@
 }
 
 .flow > * + * {
-  margin-top: var(--flow-space, 1rem);
+  margin-top: var(--gap, 1rem);
 }
 
 .sr-only {
