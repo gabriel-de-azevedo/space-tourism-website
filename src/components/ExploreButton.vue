@@ -1,5 +1,5 @@
 <template>
-  <a href="#" class="ff-serif fs-600 uppercase bg-white text-dark">Explore</a>
+  <a href="#" class="ff-serif uppercase bg-white text-dark">Explore</a>
 </template>
 
 <style scoped>
@@ -10,6 +10,7 @@ a {
   padding: 0 2em;
   aspect-ratio: 1;
   border-radius: 50%;
+  font-size: 2rem;
   text-decoration: none;
 }
 

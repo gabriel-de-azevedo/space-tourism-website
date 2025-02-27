@@ -27,11 +27,6 @@ p {
   font-weight: 400;
 }
 
-body {
-  line-height: 1.5;
-  min-height: 100vh;
-}
-
 img,
 picture {
   display: block;
