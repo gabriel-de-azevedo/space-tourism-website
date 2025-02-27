@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import ExploreButton from '@/components/ExploreButton.vue'
-import PageLayout from '@/layouts/PageLayout.vue'
+import PageContainer from '@/layouts/PageContainer.vue'
 </script>
 
 <template>
-  <PageLayout>
-    <div class="grid-column">
+  <PageContainer>
+    <div>
       <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
         So you want to travel to <span class="block fs-900 ff-serif text-white">Space</span>
       </h1>
@@ -15,16 +15,15 @@ import PageLayout from '@/layouts/PageLayout.vue'
         out of this world experience!
       </p>
     </div>
-    <div class="grid-column">
+    <div>
       <ExploreButton />
     </div>
-  </PageLayout>
+  </PageContainer>
 </template>
 
 <style scoped>
 @media (min-width: 45em) {
-  .grid-column {
-    padding-bottom: max(6rem, 20vh);
+  div {
     align-self: end;
   }
 }
