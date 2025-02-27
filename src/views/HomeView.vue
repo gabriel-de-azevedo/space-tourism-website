@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import ExploreButton from '@/components/ExploreButton.vue'
-import PageContainer from '@/layouts/PageContainer.vue'
+import BaseLayout from '@/layouts/BaseLayout.vue'
 </script>
 
 <template>
-  <PageContainer>
+  <BaseLayout>
     <div>
       <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
         So you want to travel to <span class="block fs-900 ff-serif text-white">Space</span>
@@ -18,7 +18,7 @@ import PageContainer from '@/layouts/PageContainer.vue'
     <div>
       <ExploreButton />
     </div>
-  </PageContainer>
+  </BaseLayout>
 </template>
 
 <style scoped>

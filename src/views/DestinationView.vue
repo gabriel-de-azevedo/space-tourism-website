@@ -1,9 +1,5 @@
-<script setup lang="ts">
-import PrimaryLayout from '@/layouts/PageContainer.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <PrimaryLayout style="background: red">
-    <h1>Destination</h1>
-  </PrimaryLayout>
+  <h1>Destination</h1>
 </template>

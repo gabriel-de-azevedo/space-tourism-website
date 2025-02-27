@@ -1,10 +1,25 @@
+<script setup lang="ts">
+import NavigationHeader from '@/components/NavigationHeader.vue'
+</script>
+
 <template>
-  <main>
-    <slot />
-  </main>
+  <div>
+    <NavigationHeader />
+    <main>
+      <slot />
+    </main>
+  </div>
 </template>
 
 <style scoped>
+div {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: min-content 1fr;
+  background-color: rgb(var(--clr-dark));
+  color: rgb(var(--clr-white));
+}
+
 main {
   display: grid;
   text-align: center;
