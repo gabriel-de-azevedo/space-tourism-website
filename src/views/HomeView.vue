@@ -22,7 +22,22 @@ import BaseLayout from '@/layouts/BaseLayout.vue'
 </template>
 
 <style scoped>
+.body {
+  background-image: url(../assets/images/home/background-home-mobile.jpg);
+}
+
+@media (min-width: 35rem) {
+  .body {
+    background-position: center center;
+    background-image: url(../assets/images/home/background-home-tablet.jpg);
+  }
+}
+
 @media (min-width: 45em) {
+  .body {
+    background-image: url(../assets/images/home/background-home-desktop.jpg);
+  }
+
   div {
     align-self: end;
   }

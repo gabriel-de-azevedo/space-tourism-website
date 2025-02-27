@@ -3,7 +3,7 @@ import NavigationHeader from '@/components/NavigationHeader.vue'
 </script>
 
 <template>
-  <div>
+  <div class="body">
     <NavigationHeader />
     <main>
       <slot />
@@ -12,12 +12,14 @@ import NavigationHeader from '@/components/NavigationHeader.vue'
 </template>
 
 <style scoped>
-div {
+.body {
   display: grid;
   min-height: 100vh;
   grid-template-rows: min-content 1fr;
   background-color: rgb(var(--clr-dark));
   color: rgb(var(--clr-white));
+  background-size: cover;
+  background-position: bottom center;
 }
 
 main {
