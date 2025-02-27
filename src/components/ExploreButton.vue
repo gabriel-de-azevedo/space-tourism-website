@@ -7,8 +7,8 @@ a {
   position: relative;
   display: inline-grid;
   place-items: center;
-  aspect-ratio: 1;
   padding: 0 2em;
+  aspect-ratio: 1;
   border-radius: 50%;
   text-decoration: none;
 }
@@ -22,8 +22,8 @@ a::after {
   opacity: 0;
   background: rgb(var(--clr-white));
   transition:
-    transform 400ms ease-in-out,
-    opacity 100ms linear;
+    opacity var(--transition-short),
+    transform var(--transition-long);
 }
 
 a:hover::after,
