@@ -27,6 +27,7 @@ main {
   text-align: center;
   place-items: center;
   padding-inline: 1rem;
+  padding-bottom: 2rem;
 }
 
 main * {

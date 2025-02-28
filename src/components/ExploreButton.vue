@@ -7,10 +7,10 @@ a {
   position: relative;
   display: inline-grid;
   place-items: center;
-  padding: 0 2em;
+  padding: 2em;
   aspect-ratio: 1;
   border-radius: 50%;
-  font-size: 2rem;
+  font-size: var(--fs-600);
   text-decoration: none;
 }
 
@@ -34,5 +34,11 @@ a:focus::after {
 }
 a:active:after {
   transform: scale(1);
+}
+
+@media (min-width: 35rem) {
+  a {
+    font-size:;
+  }
 }
 </style>
