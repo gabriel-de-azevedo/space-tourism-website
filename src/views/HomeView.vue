@@ -5,8 +5,8 @@ import BaseLayout from '@/layouts/BaseLayout.vue'
 
 <template>
   <BaseLayout>
-    <div>
-      <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
+    <div class="text-accent">
+      <h1 class="fs-500 ff-sans-cond uppercase letter-spacing-1">
         So you want to travel to <span class="block fs-900 ff-serif text-white">Space</span>
       </h1>
       <p>
